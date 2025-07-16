@@ -5,6 +5,7 @@ import { GLTFLoader } from './GLTFLoader.js';
 let camera, scene, renderer, controller;
 
 init();
+
 function init() {
     const container = document.createElement('div');
     document.body.appendChild(container);
