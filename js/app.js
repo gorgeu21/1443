@@ -1,6 +1,6 @@
 import * as THREE from './three.module.js';
 import { ARButton } from './ARButton.js';
-import { GLTFLoader } from 'https://unpkg.com/three@0.154.0/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from './GLTFLoader.js';
 
 let camera, scene, renderer, controller;
 
